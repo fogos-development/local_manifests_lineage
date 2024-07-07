@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="fogos"
+            fetch="https://github.com/fogos-development"
+            clone-depth="1" />
+
+ <!--Tree -->
+ <project path="device/motorola/fogos" name="lineage_device_motorola_fogos" remote="fogos" revision="lineage-21" />
+
+ <!--Kernel -->
+ <project path="kernel/motorola/sm6375" name="LineageOS/android_kernel_motorola_sm7325" remote="github" revision="lineage-21" />
+  
+ <!--Vendor -->
+ <project path="vendor/motorola/fogos" name="lineage_vendor_motorola_fogos" remote="fogos" revision="lineage-21-initial" />
+
+ <!--Extras -->
+ <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="github" revision="lineage-21" />
+
+</manifest>
